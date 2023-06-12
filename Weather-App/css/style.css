@@ -37,6 +37,7 @@ h2 {
     font-family: teko;
     font-size: 100px;
     letter-spacing: 20px;
+    margin-top: 0px;
   }
   
   .footertekst {
@@ -49,4 +50,14 @@ h2 {
     background-color: #81e0ff;
     width: 100%;
     bottom: 0px;
+}
+
+.homeknop {
+  width: 100px;
+  margin-bottom: 0px;
+  transition: width 0.5s;
+}
+
+.homeknop:hover {
+  width: 120px;
 }

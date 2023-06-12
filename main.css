@@ -13,14 +13,14 @@ body {
 
 .title {
     color: #ffffff;
-    font-family: 'Bagel Fat One';
+    font-family: 'roboto mono';
     font-size: 30px;
     margin-bottom: 20px;
   }
   
   .subtitle {
     color: #ffffff;
-    font-family: 'Bagel Fat One';
+    font-family: 'roboto mono';
     font-size: 30px;
   }
 
@@ -30,14 +30,31 @@ body {
 }
 .card {
     background-color: #222222;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    margin: 20px;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); */
+    margin: 30px;
     overflow: hidden;
     width: 500px;
-    font-family: Bagel Fat One;
+    font-family: roboto mono;
     color: white;
     text-align: center;
+    transition: width 0.5s;
+}
+
+.card:hover {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 500px;
+    transition: width 0.5s;
+    height: 0px;
+}
+
+a:hover {
+    width: 600;
 }
 
 .card-img {
@@ -51,3 +68,4 @@ body {
 .card p {
     margin: 8px 0;
 }
+

@@ -13,8 +13,9 @@
     <div class="container">
         <div class="wrap">
             <div class="title"><h1>Welcome to my portfolio!</h1></div>
-            <div class="subtitle">I am Karsten Marck, a beginner software developer, you can find some of my silly projects here :)</div>
+            <div class="subtitle">I am Karsten Marck, a beginning software developer, you can find some of my silly projects here :)</div>
         </div>
+
         <a href="./Weather-App/index.php">
         <div class="card">
         <h2>Weather App</h2>
@@ -23,6 +24,7 @@
                 <p>This is my first ever project. With this you can check what the weather is like in Dutch cities.</p>
             </div>
         </div></a>
+        
     </div>
 </body>
 </html>

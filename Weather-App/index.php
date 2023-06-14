@@ -8,8 +8,8 @@ include './inc/header.php';
         <h1 class="title">Weather App</h1>
             <form action="" method="GET">
                 <div class="input-container">
-                <b><h2><label for="regio">Type hier de plaats:</label>
-                <input class="inputveld" name="regio" type="text" placeholder="Type hier uw plaats"></h2></b>
+                <b><h2><label for="inputveld">Type hier de plaats:</label>
+                <input id="inputveld" class="inputveld" name="regio" type="text" placeholder="Type hier uw plaats"></h2></b>
     </div>
     </form>
 

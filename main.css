@@ -3,10 +3,14 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
+
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
 .container {
-    display: flex;
     flex-direction: column;
     height: 100vh;
 }
@@ -26,26 +30,61 @@ body {
 
 .wrap {
     text-align: center;
-    top: 0px;
 }
+
+.card-wrapper {
+    display: flex;
+    height: 50vh;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
 .card {
     background-color: #222222;
     border-radius: 20px;
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); */
-    margin: 30px;
     overflow: hidden;
     width: 500px;
+    height: 500px;
     font-family: roboto mono;
     color: white;
-    text-align: center;
-    transition: width 0.5s;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    position:absolute;
+    margin: 40px;
+    left: 0px;
+}
+
+.card2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 15.5px;
+
+}
+
+.card3 {
+    position: absolute;
+    margin: 40px;
+    right: 0px;
 }
 
 .card:hover {
-    width: 600px;
+    z-index: 1;
+    transform: scale(1.1);
+    transform-origin: center;
 }
 
-a {
+.coming-soon {
+    margin-top: 25%;
+}
+
+.cardlink {
+    display: flex;
     text-decoration: none;
     color: white;
     width: 500px;
@@ -58,7 +97,7 @@ a:hover {
 }
 
 .card-img {
-    width: 60%;
+    width: 330px;
 }
 
 .card .content {
@@ -69,3 +108,15 @@ a:hover {
     margin: 8px 0;
 }
 
+.githubimg {
+    width: 100px;
+    margin: 0px;
+    margin-top: 30px;
+    border-radius: 35%;
+}
+
+/* @media screen and (max-width: 1600) {
+    .card {
+        margin: 0px;
+    }
+} */

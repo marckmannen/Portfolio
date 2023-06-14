@@ -12,19 +12,40 @@
 <body>
     <div class="container">
         <div class="wrap">
-            <div class="title"><h1>Welcome to my portfolio!</h1></div>
+            <div class="title"><a class="githuba" href="https://github.com/marckmannen"><img class="githubimg" src="./img/github.png"></a><h1>Welcome to my portfolio!</h1></div>
             <div class="subtitle">I am Karsten Marck, a beginning software developer, you can find some of my silly projects here :)</div>
         </div>
 
-        <a href="./Weather-App/index.php">
-        <div class="card">
+<div class="card-wrapper">
+    
+        <a class="cardlink" href="./Weather-App/index.php">
+        <div class="card card1">
         <h2>Weather App</h2>
             <img src="./img/weather-app.png" alt="Card Image" class="card-img">
             <div class="content">
                 <p>This is my first ever project. With this you can check what the weather is like in Dutch cities.</p>
             </div>
         </div></a>
-        
+
+        <a class="cardlink" href="#./Calculator/index.php">
+        <div class="card card2">
+        <h2></h2>
+            <img src="./img/Coming-Soon.png" alt="Card Image" class="card-img coming-soon">
+            <div class="content">
+                <p></p>
+            </div>
+        </div></a>
+
+        <a class="cardlink" href="#./Idk/what/this/is/gonna/be/yet/index.php">
+        <div class="card card3">
+        <h2></h2>
+            <img src="./img/Coming-Soon.png" alt="Card Image" class="card-img coming-soon">
+            <div class="content">
+                <p></p>
+            </div>
+        </div></a>
+
+        </div>
     </div>
 </body>
 </html>

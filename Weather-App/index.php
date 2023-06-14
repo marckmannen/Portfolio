@@ -3,12 +3,13 @@ include './inc/header.php';
 ?>
 <a href="../index.php"><img src="../img/home.png"  class="homeknop" alt="home"></a>
 <body>
-    <div class="hoofdcontainer"><div class="pagecontent">
-<h1 class="title">Weather App</h1>
-    <form action="" method="GET">
-        <div class="input-container">
-        <b><h2><label for="regio">Type hier de plaats:</label>
-        <input class="inputveld" name="regio" type="text" placeholder="Type hier uw plaats"></h2></b>
+    <div class="hoofdcontainer">
+        <div class="pagecontent">
+        <h1 class="title">Weather App</h1>
+            <form action="" method="GET">
+                <div class="input-container">
+                <b><h2><label for="regio">Type hier de plaats:</label>
+                <input class="inputveld" name="regio" type="text" placeholder="Type hier uw plaats"></h2></b>
     </div>
     </form>
 
@@ -50,6 +51,7 @@ if (isset($_GET['regio'])) {
 
 ?>
 
+  </div>
 </div>
-
 <?php include './inc/footer.php'?>
+  

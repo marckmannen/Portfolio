@@ -1,7 +1,7 @@
 <?php
 include './inc/header.php';
 ?>
-
+<a href="../index.php"><img src="../img/home.png"  class="homeknop" alt="home"></a>
 <body>
     <div class="hoofdcontainer"><div class="pagecontent">
 <h1 class="title">Weather App</h1>

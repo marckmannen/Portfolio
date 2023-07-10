@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <div id="display"></div>
+        <div id="display" value="0" ></div>
         <div class="calc-btn" onclick="addNumber()"></div>
         <div class="calc-btn"></div>
         <div class="calc-btn"></div>

@@ -10,15 +10,16 @@
 <body>
     <div class="container">
         <div id="display" value="0" ></div>
-        <div class="calc-btn" onclick="addNumber()"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
-        <div class="calc-btn"></div>
+        <div class="calc-btn" onclick="addNumber()">1</div>
+        <div class="calc-btn">2</div>
+        <div class="calc-btn">3</div>
+        <div class="calc-btn">4</div>
+        <div class="calc-btn">5</div>
+        <div class="calc-btn">6</div>
+        <div class="calc-btn">7</div>
+        <div class="calc-btn">8</div>
+        <div class="calc-btn">9</div>
+        <div class="calc-btn">0</div>
     </div>
 </body>
 </html>
